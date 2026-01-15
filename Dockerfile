@@ -1,5 +1,5 @@
 # Use a lightweight OpenJDK image as the base
-FROM openjdk:17-jdk-slim
+FROM openjdk:8-jdk-slim
 
 # Set the working directory inside the container
 WORKDIR /SpringBoot

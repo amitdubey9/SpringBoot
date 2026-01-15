@@ -1,5 +1,5 @@
 # Use a lightweight OpenJDK image as the base
-FROM openjdk:8-jdk-slim
+FROM eclipse-temurin:21-jdk
 
 # Set the working directory inside the container
 WORKDIR /SpringBoot
